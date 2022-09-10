@@ -25,7 +25,7 @@ const Header = () => {
             </div>
 
             {/* NAVBAR */}
-            <nav className="flex justify-between items-center gap-2 py-2 px-10 border-t-8 border-[#ffd500] bg-gradient-to-r from-[#fff]/60 to-[#fff]/100" >
+            <nav className="flex flex-col sm:flex-row justify-between items-center gap-2 py-2 px-10 border-t-8 border-[#ffd500] bg-gradient-to-r from-[#fff]/60 to-[#fff]/100 " >
                 <div>
                     <Link to="/">
                         <div>
@@ -33,7 +33,7 @@ const Header = () => {
                         </div>
                     </Link>
                 </div>
-                <div className="hidden sm:flex gap-4" >
+                <div className="flex gap-4" >
                     <Link to="/" >Anasayfa</Link>
 
                     <div className="dropdown" >
@@ -140,7 +140,7 @@ const Header = () => {
                     <Link to="insankaynaklari" >İK</Link>
                     <Link to="iletisim" >İletişim</Link>
                 </div>
-                <div className="hidden sm:flex sm:justify-center sm:items-center" >
+                <div className="flex justify-center items-center" >
                     <div className="searchbar bg-gray-200 flex justify-center p-1 rounded-l-lg w-40">
                         <input type="search" className="rounded-lg w-28" />
                         <img src={searchVector} alt="search-vector" className="block w-5 h-5 m-1" />
