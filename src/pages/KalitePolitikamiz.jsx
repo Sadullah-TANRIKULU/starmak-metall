@@ -1,6 +1,6 @@
 const KalitePolitikamiz = () => {
     return ( 
-    <section>
+    <section className="text-center h-80" >
         kalite politikamız
     </section> 
     );

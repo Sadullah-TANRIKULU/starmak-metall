@@ -1,6 +1,6 @@
 const Kataloglarimiz = () => {
     return ( 
-        <section>
+        <section className="text-center h-80" >
             kataloglarimiz
         </section>
      );

@@ -1,6 +1,6 @@
 const Iletisim = () => {
     return ( 
-        <section>
+        <section className="text-center h-80" >
             iletişim
         </section>
      );

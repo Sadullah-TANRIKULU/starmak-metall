@@ -1,6 +1,6 @@
 const KvkkAydinlatma = () => {
     return ( 
-        <section>
+        <section className="text-center h-80" >
             kvkk aydinlatma
         </section>
      );

@@ -1,6 +1,6 @@
 const OzelTakim = () => {
     return ( 
-        <section>
+        <section className="text-center h-80" >
             özel takım
         </section>
      );

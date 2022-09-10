@@ -1,6 +1,6 @@
 const Galeri = () => {
     return ( 
-        <section>
+        <section className="text-center h-80" >
             galeri
         </section>
      );

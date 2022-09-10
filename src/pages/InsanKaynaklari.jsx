@@ -1,6 +1,6 @@
 const InsanKaynaklari = () => {
     return ( 
-        <section>
+        <section className="text-center h-80" >
             İK
         </section>
      );

@@ -1,6 +1,6 @@
 const DelikIsleme = () => {
     return ( 
-        <section>
+        <section className="text-center h-80" >
             delik işleme
         </section>
      );

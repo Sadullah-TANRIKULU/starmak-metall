@@ -1,6 +1,6 @@
 const Haberler = () => {
     return ( 
-        <section>
+        <section className="text-center h-80" >
             haberler
         </section>
      );

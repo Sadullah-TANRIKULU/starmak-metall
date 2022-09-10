@@ -12,8 +12,8 @@ const Header = () => {
     return (
         <header className="flex flex-col" >
             {/* TOP HEADER */}
-            <div className="bg-black text-gray-200 flex justify-between items-center py-2 px-10 " >
-                <div className="top-header flex gap-4 ">
+            <div className="top-header hidden sm:flex sm:gap-4 bg-black text-gray-200 sm:justify-between sm:items-center py-2 px-10 " >
+                <div className="flex gap-4">
                     <p>faruk@starkmetall.com.tr</p>
                     <p>+90 534 500 35 95</p>
                 </div>
@@ -27,7 +27,7 @@ const Header = () => {
             {/* NAVBAR */}
             <nav className="flex justify-between items-center gap-2 py-2 px-10 border-t-8 border-[#ffd500] bg-gradient-to-r from-[#fff]/60 to-[#fff]/100" >
                 <div>
-                    <Link to="anasayfa">
+                    <Link to="/">
                         <div>
                             <img src={starMakMetallLogo} alt="starmak-metall-logo" />
                         </div>
@@ -109,12 +109,15 @@ const Header = () => {
                                 </div>
                             </li>
                             <li>
-                                <Link to="kataloglarimiz" >Kataloglarımız</Link>
+                                <Link to="kataloglarimiz"
+                                >
+                                    Kataloglarımız
+                                </Link>
                             </li>
                         </ul>
                     </div>
 
-                    <div className="dropdown dropdown-right" >
+                    <div className="dropdown" >
                         <label tabIndex={0} className="m-1 cursor-pointer">
                             Medya
                         </label>

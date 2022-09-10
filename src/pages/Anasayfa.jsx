@@ -1,9 +1,9 @@
 const Anasayfa = () => {
-    return ( 
-        <section>
-            Anasayfa dolor sit amet consectetur adipisicing elit. Inventore molestiae ex at ut ratione eum quidem a praesentium ea recusandae.
+    return (
+        <section className="text-center h-80" >
+                Anasayfa
         </section>
-     );
+    );
 }
- 
+
 export default Anasayfa;
