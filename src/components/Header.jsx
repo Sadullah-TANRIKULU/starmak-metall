@@ -36,11 +36,104 @@ const Header = () => {
                 <div className="hidden sm:flex gap-4" >
                     <Link to="/" >Anasayfa</Link>
 
-                    <Link to="kurumsal" >Kurumsal</Link>
+                    <div className="dropdown" >
+                        <label
+                            tabIndex={0}
+                            className="m-1 cursor-pointer">
+                            Kurumsal
+                        </label>
+                        <ul
+                            tabIndex={0}
+                            className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                            <li>
+                                <Link to="hakkimizda" >Hakkımızda</Link>
+                            </li>
+                            <li>
+                                <Link to="ozeltakim" >Özel Takım</Link>
+                            </li>
+                            <li>
+                                <Link to="uretimkapasitemiz" >Üretim Kapasitemiz</Link>
+                            </li>
+                            <li>
+                                <Link to="kalitepolitikamiz" >Kalite Politikamız</Link>
+                            </li>
+                            <li>
+                                <Link to="kvkkaydinlatma" >KVKK</Link>
+                            </li>
+                        </ul>
+                    </div>
 
-                    <Link to="urunler" >Ürünler</Link>
+                    <div className="dropdown" >
+                        <label
+                            tabIndex={0}
+                            className="m-1 cursor-pointer">
+                            Ürünler
+                        </label>
+                        <ul
+                            tabIndex={0}
+                            className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                            <li>
+                                <div
+                                    className="dropdown dropdown-right" >
+                                    <label
+                                        tabIndex={0}
+                                        className="m-1 cursor-pointer">
+                                        Solid Karbür
+                                    </label>
+                                    <ul
+                                        tabIndex={0}
+                                        className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
+                                    >
+                                        <li>
+                                            <Link to="delikisleme" >Delik İşleme</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="" >Frezeleme (ultra-bite) </Link>
+                                        </li>
+                                        <li>
+                                            <Link to="" >Frezeleme (mic-cut) </Link>
+                                        </li>
+                                        <li>
+                                            <Link to="" >Frezeleme (eco-plus) </Link>
+                                        </li>
+                                        <li>
+                                            <Link to="" >Frezeleme (alu-mac) </Link>
+                                        </li>
+                                        <li>
+                                            <Link to="" >Frezeleme (hpc) </Link>
+                                        </li>
+                                        <li>
+                                            <Link to="" >Frezeleme (thread-mill) </Link>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <Link to="kataloglarimiz" >Kataloglarımız</Link>
+                            </li>
+                        </ul>
+                    </div>
 
-                    <Link to="medya" >Medya</Link>
+                    <div className="dropdown dropdown-right" >
+                        <label tabIndex={0} className="m-1 cursor-pointer">
+                            Medya
+                        </label>
+                        <ul
+                            tabIndex={0}
+                            className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
+                        >
+                            <li>
+                                <Link to="testvideolari" >Test Videoları</Link>
+                            </li>
+                            <li>
+                                <Link to="galeri" >Galeri</Link>
+                            </li>
+                            <li>
+                                <Link to="haberler" >Haberler</Link>
+                            </li>
+                        </ul>
+                    </div>
+
                     <Link to="insankaynaklari" >İK</Link>
                     <Link to="iletisim" >İletişim</Link>
                 </div>
