@@ -25,7 +25,7 @@ const Header = () => {
             </div>
 
             {/* NAVBAR */}
-            <nav className="flex flex-col sm:flex-row justify-between items-center gap-2 py-2 px-10 border-t-8 border-[#ffd500] bg-gradient-to-r from-[#fff]/60 to-[#fff]/100 " >
+            <nav className="flex flex-col sm:flex-row justify-between items-center gap-2 py-2 px-10 border-t-8 border-[#ffd500] bg-gradient-to-r from-[#f7f8f9]/60 to-[#fff]/100 " >
                 <div>
                     <Link to="/">
                         <div>
@@ -33,7 +33,7 @@ const Header = () => {
                         </div>
                     </Link>
                 </div>
-                <div className="flex gap-4" >
+                <div className="flex gap-1 sm:gap-12" >
                     <Link to="/" >Anasayfa</Link>
 
                     <div className="dropdown" >

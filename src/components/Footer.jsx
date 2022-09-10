@@ -8,7 +8,7 @@ import {
 const Footer = () => {
     return (
         <footer className="w-full text-[8px] md:text-[10px] lg:text-base" >
-            <section className="w-full border-t-8 border-gray-400 bg-[#ffd500] flex justify-between items-center py-2 px-10 min-h-[240px]" >
+            <section className="w-full border-t-8 border-gray-400 bg-[#ffd500] flex justify-between items-center py-2 px-4 sm:px-10 min-h-[240px]" >
                 <div className="w-1/5 h-32 pr-4 flex justify-start" >
                     <div className="text-left flex flex-col justify-center h-32">
                         <h5 className="font-bold" >KURUMSAL</h5>
@@ -36,18 +36,14 @@ const Footer = () => {
                         <Link to="">Frezeleme (thread-mill)</Link>
                     </div>
                 </div>
-                <div className="w-1/5 h-32 px-4 flex justify-end" >
+                <div className="w-1/5 h-32 px-1 sm:px-4 flex justify-end" >
                     <div className="text-left flex flex-col justify-center h-32">
 
                         <h5 className="font-bold">İLETİŞİM</h5>
                         <br />
                         <p>
                             Üçevler Mah. 26/220 Sok.
-                        </p>
-                        <p>
                             Küçük Sanayi Blok No:12/1
-                        </p>
-                        <p>
                             Nilüfer / Bursa / Türkiye
                         </p>
                         <br />
@@ -62,7 +58,7 @@ const Footer = () => {
                         </p>
                     </div>
                 </div>
-                <div className="social-icons flex items-center justify-end gap-1 w-2/5 h-20">
+                <div className="social-icons flex items-center justify-end gap-1 w-1/5 sm:w-2/5 h-20">
                     <FaFacebookSquare className="w-10 h-10 grayscale" />
                     <FaTwitterSquare className="w-10 h-10 grayscale" />
                     <FaLinkedin className="w-10 h-10 grayscale" />

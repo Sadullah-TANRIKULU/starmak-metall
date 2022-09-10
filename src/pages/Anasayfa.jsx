@@ -10,7 +10,7 @@ import img1Anasayfa from "../assets/images/Rectangle 2.png";
 
 const Anasayfa = () => {
     return (
-        <section className="text-center m-2 flex flex-col justify-center w-full px-10 py-2" >
+        <section className="text-center m-2 flex flex-col justify-center w-full px-4 sm:px-10 py-2" >
 
             {/* FREZE UÇLARI */}
             <div className="flex flex-col items-center justify-center w-full h-96 border-b-2">
@@ -65,7 +65,7 @@ const Anasayfa = () => {
                     <img src={img1Anasayfa} alt="img1Anasayfa" className="w-full"/>
                 </div>
                 <div className="h-80 py-2" >
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VdaJKSjHy8U" title="Yüksek Kalite Hassas Ölçüm Sistemleri" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VdaJKSjHy8U" title="Yüksek Kalite Hassas Ölçüm Sistemleri" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
                 <div className="flex items-center w-full py-2" >
                     <p className="w-full text-left" >
@@ -75,7 +75,7 @@ const Anasayfa = () => {
             </div>
 
             {/* TEKLİF AL KISMI */}
-            <div className="flex justify-between py-2">
+            <div className="flex justify-between items-center py-2">
                 <p className="w-1/2 text-left" >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum itaque vel saepe.
                 </p>

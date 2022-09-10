@@ -22,7 +22,7 @@ import UretimKapasitemiz from "../pages/UretimKapasitemiz";
 const AppRouter = () => {
     return (
       <section className="appRouter relative">
-        <Header />
+        <Header/>
         <Routes>
           <Route path="/" element={<Anasayfa />} />
           <Route path="hakkimizda" element={<Hakkimizda />} />
@@ -42,7 +42,7 @@ const AppRouter = () => {
           <Route path="insankaynaklari" element={<InsanKaynaklari />} />
           <Route path="iletisim" element={<Iletisim />} />
         </Routes>
-        <Footer />
+        <Footer/>
       </section>
     );
   };
