@@ -7,7 +7,7 @@ import DisBasiIlerleme from "../pages/DisBasiIlerleme";
 import Galeri from "../pages/Galeri";
 import Haberler from "../pages/Haberler";
 import HaberSayfasi from "../pages/HaberSayfasi";
-import Hakkimizda from "../pages/Hakkımızda";
+import Hakkimizda from "../pages/Hakkimizda";
 import Iletisim from "../pages/Iletisim";
 import InsanKaynaklari from "../pages/InsanKaynaklari";
 import K3DFSerisi from "../pages/K3DFSerisi";

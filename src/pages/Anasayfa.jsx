@@ -1,10 +1,10 @@
-import freze1 from "../assets/images/anasayfa-freze-uclari/20682e048abcb08185fa13a8b3e03bdc_1.png";
-import freze2 from "../assets/images/anasayfa-freze-uclari/20682e048abcb08185fa13a8b3e03bdc_2.png";
-import freze3 from "../assets/images/anasayfa-freze-uclari/20682e048abcb08185fa13a8b3e03bdc_3.png";
-import freze4 from "../assets/images/anasayfa-freze-uclari/20682e048abcb08185fa13a8b3e03bdc_4.png";
-import freze5 from "../assets/images/anasayfa-freze-uclari/20682e048abcb08185fa13a8b3e03bdc_5.png";
-import freze6 from "../assets/images/anasayfa-freze-uclari/20682e048abcb08185fa13a8b3e03bdc_6.png";
-import freze7 from "../assets/images/anasayfa-freze-uclari/20682e048abcb08185fa13a8b3e03bdc_7.png";
+import freze1 from "../assets/images/20682e048abcb08185fa13a8b3e03bdc_1.png";
+import freze2 from "../assets/images/20682e048abcb08185fa13a8b3e03bdc_2.png";
+import freze3 from "../assets/images/20682e048abcb08185fa13a8b3e03bdc_3.png";
+import freze4 from "../assets/images/20682e048abcb08185fa13a8b3e03bdc_4.png";
+import freze5 from "../assets/images/20682e048abcb08185fa13a8b3e03bdc_5.png";
+import freze6 from "../assets/images/20682e048abcb08185fa13a8b3e03bdc_6.png";
+import freze7 from "../assets/images/20682e048abcb08185fa13a8b3e03bdc_7.png";
 import img1Anasayfa from "../assets/images/Rectangle 2.png";
 
 

@@ -10,7 +10,7 @@ import searchVector from "../assets/images/Vector.png";
 
 const Header = () => {
     return (
-        <header className="flex flex-col" >
+        <header className="flex flex-col mb-10" >
             {/* TOP HEADER */}
             <div className="top-header hidden sm:flex sm:gap-4 bg-black text-gray-200 sm:justify-between sm:items-center py-2 px-10 " >
                 <div className="flex gap-4">
@@ -28,7 +28,7 @@ const Header = () => {
             <nav className="flex flex-col sm:flex-row justify-between items-center gap-2 py-2 px-10 border-t-8 border-[#ffd500] bg-gradient-to-r from-[#f7f8f9]/60 to-[#fff]/100 " >
                 <div>
                     <Link to="/">
-                        <div>
+                        <div >
                             <img src={starMakMetallLogo} alt="starmak-metall-logo" />
                         </div>
                     </Link>
@@ -148,7 +148,7 @@ const Header = () => {
                 </div>
             </nav>
             <div>
-                <img src={sliderImage} alt="home-slider-img" />
+                <img src={sliderImage} alt="home-slider-img" className="w-full" />
             </div>
         </header>
     );
