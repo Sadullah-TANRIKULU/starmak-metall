@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 import k3df from "../assets/images/delikisleme/k3df.png";
 import k5df from "../assets/images/delikisleme/k5df.png";
 import m3df from "../assets/images/delikisleme/m3df.png";
@@ -20,10 +22,19 @@ import m25df from "../assets/images/delikisleme/m25df.png";
 
 
 const DelikIsleme = () => {
+
+    const navigate = useNavigate();
+
+
+
+
     return ( 
         <section className="text-center" >
             <div className="grid grid-cols-3 sm:grid-cols-5 gap-2 justify-items-center items-center"  >
-                <div className="card w-40 sm:w-80 bg-base-100 shadow-xl rounded-none">
+                <div 
+                className="card w-40 sm:w-80 bg-base-100 shadow-xl rounded-none cursor-pointer"
+                onClick={() => navigate("/k3dfserisi")}
+                >
                     <figure>
                         <img src={k3df} alt="k3df" className="h-5/6" />
                     </figure>
