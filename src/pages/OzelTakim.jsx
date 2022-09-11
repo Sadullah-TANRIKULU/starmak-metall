@@ -1,6 +1,6 @@
-import img2ozeltk from "../assets/images/img2ozeltk.png";
-import img3ozeltk from "../assets/images/img3ozeltk.png";
-import img4ozeltk from "../assets/images/img4ozeltk.png";
+import img2ozeltk from "../assets/images/ozeltakim/img2ozeltk.png";
+import img3ozeltk from "../assets/images/ozeltakim/img3ozeltk.png";
+import img4ozeltk from "../assets/images/ozeltakim/img4ozeltk.png";
 
 
 const OzelTakim = () => {

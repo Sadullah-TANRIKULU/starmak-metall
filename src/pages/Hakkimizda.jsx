@@ -1,5 +1,5 @@
-import img1Hakkimizda from "../assets/images/img1hakkimizda.png";
-import img2Hakkimizda from "../assets/images/img2hakkimizda.png";
+import img1Hakkimizda from "../assets/images/hakkimizda/img1hakkimizda.png";
+import img2Hakkimizda from "../assets/images/hakkimizda/img2hakkimizda.png";
 
 
 const Hakkimizda = () => {

@@ -4,9 +4,9 @@ import {
     FaTwitterSquare,
     FaLinkedin
 } from "react-icons/fa";
-import starMakMetallLogo from "../assets/images/lOGO.png";
-import sliderImage from "../assets/images/sliderimage.png";
-import searchVector from "../assets/images/Vector.png";
+import starMakMetallLogo from "../assets/images/anasayfa/lOGO.png";
+import sliderImage from "../assets/images/header/sliderimage1.png";
+import searchVector from "../assets/images/header/Vector.png";
 
 const Header = () => {
     return (

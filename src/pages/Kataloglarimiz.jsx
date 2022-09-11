@@ -1,8 +1,8 @@
-import img1kataloglar from "../assets/images/img1kataloglar.png";
-import img2kataloglar from "../assets/images/img2kataloglar.png";
-import img3kataloglar from "../assets/images/img3kataloglar.png";
-import img4kataloglar from "../assets/images/img4kataloglar.png";
-import indirIcon from "../assets/images/indirIcon.png";
+import img1kataloglar from "../assets/images/kataloglarimiz/img1kataloglar.png";
+import img2kataloglar from "../assets/images/kataloglarimiz/img2kataloglar.png";
+import img3kataloglar from "../assets/images/kataloglarimiz/img3kataloglar.png";
+import img4kataloglar from "../assets/images/kataloglarimiz/img4kataloglar.png";
+import indirIcon from "../assets/images/kataloglarimiz/indirIcon.png";
 
 
 const Kataloglarimiz = () => {

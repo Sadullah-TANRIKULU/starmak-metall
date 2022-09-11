@@ -1,8 +1,8 @@
-import img1uretimkap from "../assets/images/img1uretimkap.png";
-import img2uretimkap from "../assets/images/img2uretimkap.png";
-import img3uretimkap from "../assets/images/img3uretimkap.png";
-import img4uretimkap from "../assets/images/img4uretimkap.png";
-import img5uretimkap from "../assets/images/img5uretimkap.png";
+import img1uretimkap from "../assets/images/uretimkapasitemiz/img1uretimkap.png";
+import img2uretimkap from "../assets/images/uretimkapasitemiz/img2uretimkap.png";
+import img3uretimkap from "../assets/images/uretimkapasitemiz/img3uretimkap.png";
+import img4uretimkap from "../assets/images/uretimkapasitemiz/img4uretimkap.png";
+import img5uretimkap from "../assets/images/uretimkapasitemiz/img5uretimkap.png";
 
 
 const UretimKapasitemiz = () => {
