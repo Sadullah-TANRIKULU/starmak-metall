@@ -23,88 +23,19 @@ import delikkesit5 from "../assets/images/k3dfserisi/delikkesit5.png";
 const K3DFSerisi = () => {
     return (
         <section className="text-center m-2 flex justify-center w-full px-4 sm:px-10 py-2" >
-            <div className="w-4/12 border">
-                <div className="border border-black flex justify-between items-center w-full">
-                    <div className="bg-blue-600 w-1/12 h-6 sm:h-9"></div>
-                    <p className="border-r-2 border-black w-9/12">
-                        Çelik
-                    </p>
+            <div className="w-4/12 border text-2xs">
+                <div className="border border-black flex justify-between items-center w-full h-6 sm:h-9">
+                    <div className="bg-[#4f80ff] w-1/12 h-full"></div>
+                    <div className="flex justify-center items-center border-r-2 border-black w-9/12 h-full">
+                        <p className="">
+                            Çelik
+                        </p>
+                    </div>
                     <div className="flex justify-center items-center w-2/12">
                         <img src={tamnokta} alt="tamnokta" className="block w-2 " />
                     </div>
                 </div>
-                <div className="border border-black flex justify-between items-center w-full">
-                    <div className="bg-blue-600 w-1/12 h-6 sm:h-9"></div>
-                    <p className="border-r-2 border-black w-9/12">
-                        Çelik
-                    </p>
-                    <div className="flex justify-center items-center w-2/12">
-                        <img src={yarimnokta} alt="tamnokta" className="block w-2 " />
-                    </div>
-                </div>
-                <div className="border border-black flex justify-between items-center w-full">
-                    <div className="bg-blue-600 w-1/12 h-6 sm:h-9"></div>
-                    <p className="border-r-2 border-black w-9/12">
-                        Çelik
-                    </p>
-                    <div className="flex justify-center items-center w-2/12">
-                        <img src={yarimnokta} alt="tamnokta" className="block w-2 " />
-                    </div>
-                </div>
-                <div className="border border-black flex justify-between items-center w-full">
-                    <div className="bg-blue-600 w-1/12 h-6 sm:h-9"></div>
-                    <p className="border-r-2 border-black w-9/12">
-                        Çelik
-                    </p>
-                    <div className="flex justify-center items-center w-2/12">
-                        <img src={yarimnokta} alt="tamnokta" className="block w-2 " />
-                    </div>
-                </div>
-                <div className="border border-black flex justify-between items-center w-full">
-                    <div className="bg-blue-600 w-1/12 h-6 sm:h-9"></div>
-                    <p className="border-r-2 border-black w-9/12">
-                        Çelik
-                    </p>
-                    <div className="flex justify-center items-center w-2/12">
-                        <img src={tamnokta} alt="tamnokta" className="block w-2 " />
-                    </div>
-                </div>
-                <div className="border border-black flex justify-between items-center w-full">
-                    <div className="bg-blue-600 w-1/12 h-6 sm:h-9"></div>
-                    <p className="border-r-2 border-black w-9/12">
-                        Çelik
-                    </p>
-                    <div className="flex justify-center items-center w-2/12">
-                        <img src={tamnokta} alt="tamnokta" className="block w-2 " />
-                    </div>
-                </div>
-                <div className="border border-black flex justify-between items-center w-full">
-                    <div className="bg-blue-600 w-1/12 h-6 sm:h-9"></div>
-                    <p className="border-r-2 border-black w-9/12">
-                        Çelik
-                    </p>
-                    <div className="flex justify-center items-center w-2/12">
-                        <img src={yarimnokta} alt="tamnokta" className="block w-2 " />
-                    </div>
-                </div>
-                <div className="border border-black flex justify-between items-center w-full">
-                    <div className="bg-blue-600 w-1/12 h-6 sm:h-9"></div>
-                    <p className="border-r-2 border-black w-9/12">
-                        Çelik
-                    </p>
-                    <div className="flex justify-center items-center w-2/12">
-                        <img src={yarimnokta} alt="tamnokta" className="block w-2 " />
-                    </div>
-                </div>
-                <div className="border border-black flex justify-between items-center w-full">
-                    <div className="bg-blue-600 w-1/12 h-6 sm:h-9"></div>
-                    <p className="border-r-2 border-black w-9/12">
-                        Çelik
-                    </p>
-                    <div className="flex justify-center items-center w-2/12">
-                        <img src={yarimnokta} alt="tamnokta" className="block w-2 " />
-                    </div>
-                </div>
+                
                 <div className="flex items-center justify-center" >
                     <div>
                         <div className="flex items-center gap-2">

@@ -1,31 +1,29 @@
 import { Link } from "react-router-dom";
-import {
-    FaFacebookSquare,
-    FaTwitterSquare,
-    FaLinkedin
-} from "react-icons/fa";
+import facebook from "../assets/images/header/facebook.png";
+import twitter from "../assets/images/header/twitter.png";
+import linkedin from "../assets/images/header/linkedin.png";
 import starMakMetallLogo from "../assets/images/anasayfa/lOGO.png";
 import sliderImage from "../assets/images/header/sliderimage1.png";
 import searchVector from "../assets/images/header/Vector.png";
 
 const Header = () => {
     return (
-        <header className="flex flex-col mb-10" >
+        <header className="flex flex-col mb-28" >
             {/* TOP HEADER */}
-            <div className="top-header hidden sm:flex sm:gap-4 bg-black text-gray-200 sm:justify-between sm:items-center py-2 px-10 " >
-                <div className="flex gap-4">
-                    <p>faruk@starkmetall.com.tr</p>
-                    <p>+90 534 500 35 95</p>
+            <div className="top-header hidden sm:flex sm:gap-4 bg-[#313131] text-gray-200 sm:justify-between sm:items-center py-4 pl-48 pr-48 w-full border-b-8 border-[#ffd500]" >
+                <div className="flex gap-8">
+                    <h6 className="w-48 h-4">faruk@starkmetall.com.tr</h6>
+                    <h6 className="w-48 h-4">+90 534 500 35 95</h6>
                 </div>
                 <div className="social-icons flex gap-1">
-                    <FaFacebookSquare />
-                    <FaTwitterSquare />
-                    <FaLinkedin />
+                    <img src={facebook} alt="facebook" className="w-8 h-8" />
+                    <img src={twitter} alt="twitter" className="w-8 h-8" />
+                    <img src={linkedin} alt="linkedin" className="w-8 h-8" />
                 </div>
             </div>
 
             {/* NAVBAR */}
-            <nav className="flex flex-col sm:flex-row justify-between items-center gap-2 py-2 px-10 border-t-8 border-[#ffd500] bg-gradient-to-r from-[#f7f8f9]/60 to-[#fff]/100 " >
+            <nav className="navbar flex flex-col sm:flex-row justify-between items-center gap-2 py-2 pl-48 pr-48 bg-gradient-to-r from-white/10 to-white" >
                 <div>
                     <Link to="/">
                         <div >
@@ -87,24 +85,6 @@ const Header = () => {
                                         <li>
                                             <Link to="delikisleme" >Delik İşleme</Link>
                                         </li>
-                                        <li>
-                                            <Link to="" >Frezeleme (ultra-bite) </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="" >Frezeleme (mic-cut) </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="" >Frezeleme (eco-plus) </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="" >Frezeleme (alu-mac) </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="" >Frezeleme (hpc) </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="" >Frezeleme (thread-mill) </Link>
-                                        </li>
                                     </ul>
                                 </div>
                             </li>
@@ -141,9 +121,9 @@ const Header = () => {
                     <Link to="iletisim" >İletişim</Link>
                 </div>
                 <div className="flex justify-center items-center" >
-                    <div className="searchbar bg-gray-200 flex justify-center p-1 rounded-l-lg w-40">
-                        <input type="search" className="rounded-lg w-28" />
-                        <img src={searchVector} alt="search-vector" className="block w-5 h-5 m-1" />
+                    <div className="searchbar bg-[#eee] flex justify-center items-center gap-2 rounded-l-3xl w-48 h-8">
+                        <input type="search" className="rounded-3xl w-36 h-6" />
+                        <img src={searchVector} alt="search-vector" className="block w-5 h-5" />
                     </div>
                 </div>
             </nav>
