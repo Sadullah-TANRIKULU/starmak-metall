@@ -23,7 +23,9 @@ const Header = () => {
             </div>
 
             {/* NAVBAR */}
-            <nav className="navbar flex flex-col sm:flex-row justify-between items-center gap-2 py-2 pl-48 pr-48 bg-gradient-to-r from-white/10 to-white" >
+            <nav className="navbaree bg-gradient-to-r from-transparent to-white flex flex-col sm:flex-row justify-between items-center gap-2 py-2 pl-48 pr-48 " 
+            >
+            {/* bg-gradient-to-r from-transparent to-white */}
                 <div>
                     <Link to="/">
                         <div >

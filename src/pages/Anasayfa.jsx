@@ -10,10 +10,10 @@ import img1Anasayfa from "../assets/images/anasayfa/img1anasayfa.png";
 
 const Anasayfa = () => {
     return (
-        <section className="text-center m-2 flex flex-col justify-center w-full px-4 sm:pl-48 sm:pr-48 py-2" >
+        <section className="text-center m-2 flex flex-col justify-center w-full py-2" >
 
             {/* FREZE UÇLARI */}
-            <div className="flex flex-col gap-40 items-center w-full h-[31rem] border-b-2">
+            <div className="flex flex-col gap-40 items-center w-full h-[31rem] px-4 sm:pl-48 sm:pr-48">
                 <div className="grid grid-cols-7 text-[10px] w-full" >
                     <div className="flex flex-col items-center gap-4 border-r-2 h-24 sm:h-40 justify-center">
                         <img src={freze1} alt="freze1" className="block h-60" />
@@ -55,9 +55,11 @@ const Anasayfa = () => {
                     </h5>
                 </div>
             </div>
+            <hr className="w-[120rem] h-0.5 bg-[#d9d9d9]" />
+
 
             {/* IMG VE VIDEO WITH DESCRIPTION KISMI*/}
-            <div className="grid sm:grid-cols-2 gap-4 w-full border-b-2 pt-10 pb-16" >
+            <div className="grid sm:grid-cols-2 gap-4 w-full pt-10 pb-16 px-4 sm:pl-48 sm:pr-48" >
                 <div className="flex flex-col justify-center py-2 gap-3" >
                     <h2 className="w-[30rem] text-left font-medium text-[#6B6E6F]" 
                     >
@@ -81,13 +83,14 @@ const Anasayfa = () => {
                     </p>
                 </div>
             </div>
+            <hr className="w-[120rem] h-0.5 bg-[#d9d9d9]" />
 
             {/* TEKLİF AL KISMI */}
-            <div className="flex justify-between items-center py-2">
-                <p className="w-1/2 text-left" >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum itaque vel saepe.
-                </p>
-                <button type="button" className="block bg-[#ffd500] h-16 w-56" >Teklif Al</button>
+            <div className="flex justify-between pt-12 h-[20rem] px-4 sm:pl-48 sm:pr-48">
+                <h2 className="font-medium w-[54rem] text-left text-[#6B6E6F] h-40" >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum itaque vel saepe. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, maxime?
+                </h2>
+                <div type="button" className="bg-[#ffd500] h-14 w-60 flex justify-center items-center" > <h4 className="w-20 h-6 text-[#6B6E6F]">Teklif Al</h4> </div>
             </div>
         </section>
     );

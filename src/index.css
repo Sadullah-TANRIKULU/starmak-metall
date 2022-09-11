@@ -3,3 +3,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/*@layer base {
+  .navbaree {
+    @apply bg-gradient-to-r from-transparent to-white;
+  }
+}*/
+
+
