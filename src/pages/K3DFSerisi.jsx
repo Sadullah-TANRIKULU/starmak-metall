@@ -24,12 +24,13 @@ import sliderImage1 from "../assets/images/delikisleme/sliderimage1.png";
 const K3DFSerisi = () => {
     return (
         <section className="text-center flex flex-col justify-center w-full py-2" >
+            {/* GENEL ÖZELLİKLER KISMI */}
             <div className="mb-28 relative" >
                 <img src={sliderImage1} alt="home-slider-img" className="w-full" />
                 <h1 className="font-semibold text-[#9ea2a3] w-[40rem] h-12 absolute bottom-32 left-52 text-left text-5xl" >Delik İşleme</h1>
                 <h3 className="font-medium text-[#6b6e6f] w-[40rem] h-12 absolute bottom-20 left-52 text-left text-2xl" >Lörem ipsum prov benyk som kvasivis treligt. Lan kiska heterorat aplad judonde.</h3>
             </div>
-            <div className="text-center m-2 flex justify-center w-full px-4 sm:pl-52 sm:pr-48 py-2 " >
+            <div className="text-center mb-24 flex justify-center w-full px-4 sm:pl-52 sm:pr-48 py-2 " >
 
                 <div className="w-4/12 border">
                     <div className="border flex justify-between items-center w-full h-14 sm:h-[3.3rem]">
@@ -189,6 +190,14 @@ const K3DFSerisi = () => {
                         <img src={delikkesit5} alt="delikkesit5" className="block" />
                     </div>
                 </div>
+            </div>
+
+            {/* STOK KOD TABLOSU */}
+
+            <div className="flex justify-center w-full px-4 sm:pl-52 sm:pr-48 py-2">
+                <div className="border w-1/3 h-[6.2rem]" >K3DF Serisi</div>
+                <div className="border w-1/3 h-[6.2rem]" >Kesme Değerleri</div>
+                <div className="border w-1/3 h-[6.2rem]" >Diş Başı İlerleme (mm/dev)</div>
             </div>
         </section>
     );
