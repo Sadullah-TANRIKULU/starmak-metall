@@ -6,7 +6,7 @@ import linkedin from "../assets/images/header/linkedin.png";
 const Footer = () => {
     return (
         <footer className="w-full text-[8px] md:text-[10px] lg:text-base mt-10" >
-            <section className="w-full border-t-[1rem] border-[#d9d9d9] bg-[#ffd500] flex justify-between items-center py-2 px-4 sm:pl-48 sm:pr-48 h-60" >
+            <section className="w-full border-t-[1rem] border-[#d9d9d9] bg-[#ffd500] flex justify-between items-center py-2 px-4 sm:pl-52 sm:pr-48 h-60" >
                 <div className="w-1/5 h-32 flex justify-start" >
                     <div className="text-left flex flex-col justify-center h-32 w-60">
                         <h5 className="font-semibold text-[#6B6E6F]" >KURUMSAL</h5>

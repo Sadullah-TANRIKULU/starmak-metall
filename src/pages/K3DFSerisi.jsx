@@ -23,46 +23,135 @@ import sliderImage1 from "../assets/images/delikisleme/sliderimage1.png";
 
 const K3DFSerisi = () => {
     return (
-        <section className="text-center m-2 flex flex-col justify-center w-full px-4 sm:px-10 py-2" >
+        <section className="text-center flex flex-col justify-center w-full py-2" >
             <div className="mb-28 relative" >
                 <img src={sliderImage1} alt="home-slider-img" className="w-full" />
                 <h1 className="font-semibold text-[#9ea2a3] w-[40rem] h-12 absolute bottom-32 left-52 text-left text-5xl" >Delik İşleme</h1>
                 <h3 className="font-medium text-[#6b6e6f] w-[40rem] h-12 absolute bottom-20 left-52 text-left text-2xl" >Lörem ipsum prov benyk som kvasivis treligt. Lan kiska heterorat aplad judonde.</h3>
             </div>
-            <div className="text-center m-2 flex justify-center w-full px-4 sm:pl-48 sm:pr-48 py-2 " >
+            <div className="text-center m-2 flex justify-center w-full px-4 sm:pl-52 sm:pr-48 py-2 " >
 
-                <div className="w-4/12 border text-2xs">
-                    <div className="border border-black flex justify-between items-center w-full h-6 sm:h-9">
-                        <div className="bg-[#4f80ff] w-1/12 h-full"></div>
-                        <div className="flex justify-center items-center border-r-2 border-black w-9/12 h-full">
-                            <p className="">
+                <div className="w-4/12 border">
+                    <div className="border flex justify-between items-center w-full h-14 sm:h-[3.3rem]">
+                        <div className="bg-[#4f80ff] w-3 h-full"></div>
+                        <div className="flex justify-center items-center border-r-2 w-[26rem] h-full">
+                            <h4 className="font-medium text-xl text-[#6b6e6f] w-full text-left pl-16">
                                 Çelik
-                            </p>
+                            </h4>
                         </div>
-                        <div className="flex justify-center items-center w-2/12">
-                            <img src={tamnokta} alt="tamnokta" className="block w-2 " />
+                        <div className="flex justify-start w-10">
+                                <img src={tamnokta} alt="tamnokta" className=" w-5 " />
+                        </div>
+                    </div>
+                    <div className="border flex justify-between items-center w-full h-14 sm:h-[3.3rem]">
+                        <div className="bg-[#ffd500] w-3 h-full"></div>
+                        <div className="flex justify-center items-center border-r-2 w-[26rem] h-full">
+                            <h4 className="font-medium text-xl text-[#6b6e6f] w-full text-left pl-16">
+                                Paslanmaz Çelik
+                            </h4>
+                        </div>
+                        <div className="flex justify-start w-10">
+                                <img src={yarimnokta} alt="yarimnokta" className=" w-5 " />
+                        </div>
+                    </div>
+                    <div className="border flex justify-between items-center w-full h-14 sm:h-[3.3rem]">
+                        <div className="bg-[#6B6E6F] w-3 h-full"></div>
+                        <div className="flex justify-center items-center border-r-2 w-[26rem] h-full">
+                            <h4 className="font-medium text-xl text-[#6b6e6f] w-full text-left pl-16">
+                            Sertleştirilmiş Çelik ≤ 54 HRc
+                            </h4>
+                        </div>
+                        <div className="flex justify-start w-10">
+                                <img src={yarimnokta} alt="yarimnokta" className=" w-5 " />
+                        </div>
+                    </div>
+                    <div className="border flex justify-between items-center w-full h-14 sm:h-[3.3rem]">
+                        <div className="bg-[#6B6E6F] w-3 h-full"></div>
+                        <div className="flex justify-center items-center border-r-2 w-[26rem] h-full">
+                            <h4 className="font-medium text-xl text-[#6b6e6f] w-full text-left pl-16"
+                            >
+                            Sertleştirilmiş Çelik &gt; 54 HRc
+                            </h4>
+                        </div>
+                        <div className="flex justify-start w-10">
+                                <img src={yarimnokta} alt="yarimnokta" className=" w-5 " />
+                        </div>
+                    </div>
+                    <div className="border flex justify-between items-center w-full h-14 sm:h-[3.3rem]">
+                        <div className="bg-[#E30613] w-3 h-full"></div>
+                        <div className="flex justify-center items-center border-r-2 w-[26rem] h-full">
+                            <h4 className="font-medium text-xl text-[#6b6e6f] w-full text-left pl-16">
+                                Döküm
+                            </h4>
+                        </div>
+                        <div className="flex justify-start w-10">
+                                <img src={tamnokta} alt="tamnokta" className=" w-5 " />
+                        </div>
+                    </div>
+                    <div className="border flex justify-between items-center w-full h-14 sm:h-[3.3rem]">
+                        <div className="bg-[#000] w-3 h-full"></div>
+                        <div className="flex justify-center items-center border-r-2 w-[26rem] h-full">
+                            <h4 className="font-medium text-xl text-[#6b6e6f] w-full text-left pl-16">
+                                Grafit
+                            </h4>
+                        </div>
+                        <div className="flex justify-start w-10">
+                                <img src={tamnokta} alt="tamnokta" className=" w-5 " />
+                        </div>
+                    </div>
+                    <div className="border flex justify-between items-center w-full h-14 sm:h-[3.3rem]">
+                        <div className="bg-[#39B11B] w-3 h-full"></div>
+                        <div className="flex justify-center items-center border-r-2 w-[26rem] h-full">
+                            <h4 className="font-medium text-xl text-[#6b6e6f] w-full text-left pl-16">
+                                Demir Dışı Materyal
+                            </h4>
+                        </div>
+                        <div className="flex justify-start w-10">
+                                <img src={yarimnokta} alt="yarimnokta" className=" w-5 " />
+                        </div>
+                    </div>
+                    <div className="border flex justify-between items-center w-full h-14 sm:h-[3.3rem]">
+                        <div className="bg-[#FE7A00] w-3 h-full"></div>
+                        <div className="flex justify-center items-center border-r-2 w-[26rem] h-full">
+                            <h4 className="font-medium text-xl text-[#6b6e6f] w-full text-left pl-16">
+                                HRSA
+                            </h4>
+                        </div>
+                        <div className="flex justify-start w-10">
+                                <img src={yarimnokta} alt="yarimnokta" className=" w-5 " />
+                        </div>
+                    </div>
+                    <div className="border flex justify-between items-center w-full h-14 sm:h-[3.3rem]">
+                        <div className="bg-[#B47439] w-3 h-full"></div>
+                        <div className="flex justify-center items-center border-r-2 w-[26rem] h-full">
+                            <h4 className="font-medium text-xl text-[#6b6e6f] w-full text-left pl-16">
+                                Titanyum
+                            </h4>
+                        </div>
+                        <div className="flex justify-start w-10">
+                                <img src={yarimnokta} alt="yarimnokta" className=" w-5 " />
                         </div>
                     </div>
 
-                    <div className="flex items-center justify-center" >
-                        <div>
+                    <div className="flex items-center justify-start w-full h-36 pl-24" >
+                        <div className="flex flex-col gap-2" >
                             <div className="flex items-center gap-2">
-                                <img src={tamnokta} alt="tamnokta" className="block w-2 " />
-                                önerilir
+                                <img src={tamnokta} alt="tamnokta" className="block w-5 " />
+                                <h4 className="text-[#6B6E6F] text-xl" >Önerilir</h4>
                             </div>
                             <div className="flex items-center gap-2">
-                                <img src={yarimnokta} alt="yarimnokta" className="block w-2 " />
-                                kabul edilebilir
+                                <img src={yarimnokta} alt="yarimnokta" className="block w-5 " />
+                                <h4 className="text-[#6B6E6F] text-xl" >Kabul Edilebilir</h4>
                             </div>
                             <div className="flex items-center gap-2">
-                                <img src={bosnokta} alt="bosnokta" className="block w-2 " />
-                                önerilmez
+                                <img src={bosnokta} alt="bosnokta" className="block w-5 " />
+                                <h4 className="text-[#6B6E6F] text-xl" >Önerilmez</h4>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="w-1/12 border border-black flex flex-col justify-center items-center">
+                <div className="w-1/12 border flex flex-col justify-center items-center gap-6 py-3">
                     <img src={alfa} alt="alfa" className="p-1" />
                     <img src={formhadin} alt="formhadin" className="p-1" />
                     <img src={ruzgar} alt="ruzgar" className="p-1" />
@@ -70,7 +159,7 @@ const K3DFSerisi = () => {
                     <img src={tiain} alt="tiain" className="p-1" />
                 </div>
 
-                <div className="w-6/12 border border-black">
+                <div className="w-6/12 border ">
                     <div className="border flex w-full h-3/5 pl-8 pt-5" >
                         <div className="relative" >
                             <img src={matkapucucizim} alt="matkapucucizim" className="block" />
@@ -91,7 +180,7 @@ const K3DFSerisi = () => {
                     </div>
                 </div>
 
-                <div className="w-1/12 border border-black flex flex-col items-center justify-center">
+                <div className="w-1/12 border  flex flex-col items-center justify-center">
                     <div className="h-full flex flex-col justify-between py-4">
                         <img src={delikkesit1} alt="delikkesit1" className="block" />
                         <img src={delikkesit2} alt="delikkesit2" className="block" />

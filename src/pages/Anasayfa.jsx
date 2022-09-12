@@ -18,7 +18,7 @@ const Anasayfa = () => {
             </div>
 
             {/* FREZE UÇLARI */}
-            <div className="flex flex-col gap-40 items-center w-full h-[31rem] px-4 sm:pl-48 sm:pr-48">
+            <div className="flex flex-col gap-40 items-center w-full h-[31rem] px-4 sm:pl-52 sm:pr-48">
                 <div className="grid grid-cols-7 text-[10px] w-full" >
                     <div className="flex flex-col items-center gap-4 border-r-2 h-24 sm:h-40 justify-center">
                         <img src={freze1} alt="freze1" className="block h-60" />
@@ -64,7 +64,7 @@ const Anasayfa = () => {
 
 
             {/* IMG VE VIDEO WITH DESCRIPTION KISMI*/}
-            <div className="grid sm:grid-cols-2 gap-4 w-full pt-10 pb-16 px-4 sm:pl-48 sm:pr-48" >
+            <div className="grid sm:grid-cols-2 gap-4 w-full pt-10 pb-16 px-4 sm:pl-52 sm:pr-48" >
                 <div className="flex flex-col justify-center py-2 gap-3" >
                     <h2 className="w-[30rem] text-left font-medium text-[#6B6E6F]" 
                     >
@@ -91,7 +91,7 @@ const Anasayfa = () => {
             <hr className="w-[120rem] h-0.5 bg-[#d9d9d9]" />
 
             {/* TEKLİF AL KISMI */}
-            <div className="flex justify-between pt-12 h-[20rem] px-4 sm:pl-48 sm:pr-48">
+            <div className="flex justify-between pt-12 h-[20rem] px-4 sm:pl-52 sm:pr-48">
                 <h2 className="font-medium w-[54rem] text-left text-[#6B6E6F] h-40" >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum itaque vel saepe. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, maxime?
                 </h2>

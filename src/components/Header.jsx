@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <header className="flex flex-col" >
             {/* TOP HEADER */}
-            <div className="top-header hidden sm:flex sm:gap-4 bg-[#313131] text-gray-200 sm:justify-between sm:items-center py-4 pl-48 pr-48 w-full border-b-8 border-[#ffd500]" >
+            <div className="top-header hidden sm:flex sm:gap-4 bg-[#313131] text-gray-200 sm:justify-between sm:items-center py-4 pl-52 pr-48 w-full border-b-8 border-[#ffd500]" >
                 <div className="flex gap-8">
                     <h6 className="w-48 h-4">faruk@starkmetall.com.tr</h6>
                     <h6 className="w-48 h-4">+90 534 500 35 95</h6>
@@ -23,7 +23,7 @@ const Header = () => {
             </div>
 
             {/* NAVBAR */}
-            <nav className="navbaree bg-gradient-to-r from-transparent to-white flex flex-col sm:flex-row justify-between items-center gap-2 py-4 pl-48 pr-48 " 
+            <nav className="navbaree bg-gradient-to-r from-transparent to-white flex flex-col sm:flex-row justify-between items-center gap-2 py-4 pl-52 pr-48 " 
             >
             {/* bg-gradient-to-r from-transparent to-white */}
                 <div>
