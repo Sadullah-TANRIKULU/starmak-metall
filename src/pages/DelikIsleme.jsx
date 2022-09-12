@@ -39,7 +39,7 @@ const DelikIsleme = () => {
             </div>
             <div className="grid grid-cols-3 sm:grid-cols-5 gap-14 justify-items-center px-80 "  >
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
@@ -53,7 +53,7 @@ const DelikIsleme = () => {
                     </div>
                 </div>
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
@@ -67,7 +67,7 @@ const DelikIsleme = () => {
                     </div>
                 </div>
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
@@ -81,7 +81,7 @@ const DelikIsleme = () => {
                     </div>
                 </div>
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
@@ -95,7 +95,7 @@ const DelikIsleme = () => {
                     </div>
                 </div>
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
@@ -109,7 +109,7 @@ const DelikIsleme = () => {
                     </div>
                 </div>
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
@@ -123,7 +123,7 @@ const DelikIsleme = () => {
                     </div>
                 </div>
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
@@ -137,7 +137,7 @@ const DelikIsleme = () => {
                     </div>
                 </div>
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
@@ -151,7 +151,7 @@ const DelikIsleme = () => {
                     </div>
                 </div>
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
@@ -165,7 +165,7 @@ const DelikIsleme = () => {
                     </div>
                 </div>
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
@@ -179,7 +179,7 @@ const DelikIsleme = () => {
                     </div>
                 </div>
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
@@ -193,7 +193,7 @@ const DelikIsleme = () => {
                     </div>
                 </div>
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
@@ -207,7 +207,7 @@ const DelikIsleme = () => {
                     </div>
                 </div>
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
@@ -221,7 +221,7 @@ const DelikIsleme = () => {
                     </div>
                 </div>
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
@@ -235,7 +235,7 @@ const DelikIsleme = () => {
                     </div>
                 </div>
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
@@ -249,7 +249,7 @@ const DelikIsleme = () => {
                     </div>
                 </div>
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
@@ -263,7 +263,7 @@ const DelikIsleme = () => {
                     </div>
                 </div>
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
@@ -277,7 +277,7 @@ const DelikIsleme = () => {
                     </div>
                 </div>
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
@@ -291,7 +291,7 @@ const DelikIsleme = () => {
                     </div>
                 </div>
                 <div
-                    className="card w-40 sm:w-52 h-[30rem] bg-base-100 shadow-xl rounded-none cursor-pointer border"
+                    className="card w-40 sm:w-52 h-[30rem] bg-white shadow-xl rounded-none cursor-pointer border"
                     onClick={() => navigate("/k3dfserisi")}
                 >
                     <figure>
