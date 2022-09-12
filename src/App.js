@@ -4,7 +4,7 @@ import AppRouter from './router/AppRouter';
 
 function App() {
   return (
-    <main className="App font-montserrat w-screen">
+    <main className="App font-montserrat w-[120rem]">
       <BrowserRouter>
         <AppRouter />
       </BrowserRouter>

@@ -8,7 +8,7 @@ import searchVector from "../assets/images/header/Vector.png";
 
 const Header = () => {
     return (
-        <header className="flex flex-col mb-28" >
+        <header className="flex flex-col" >
             {/* TOP HEADER */}
             <div className="top-header hidden sm:flex sm:gap-4 bg-[#313131] text-gray-200 sm:justify-between sm:items-center py-4 pl-48 pr-48 w-full border-b-8 border-[#ffd500]" >
                 <div className="flex gap-8">
@@ -23,7 +23,7 @@ const Header = () => {
             </div>
 
             {/* NAVBAR */}
-            <nav className="navbaree bg-gradient-to-r from-transparent to-white flex flex-col sm:flex-row justify-between items-center gap-2 py-2 pl-48 pr-48 " 
+            <nav className="navbaree bg-gradient-to-r from-transparent to-white flex flex-col sm:flex-row justify-between items-center gap-2 py-4 pl-48 pr-48 " 
             >
             {/* bg-gradient-to-r from-transparent to-white */}
                 <div>
@@ -129,9 +129,9 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-            <div>
+            {/* <div>
                 <img src={sliderImage} alt="home-slider-img" className="w-full" />
-            </div>
+            </div> */}
         </header>
     );
 }

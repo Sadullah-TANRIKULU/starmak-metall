@@ -6,11 +6,16 @@ import freze5 from "../assets/images/anasayfa/20682e048abcb08185fa13a8b3e03bdc_5
 import freze6 from "../assets/images/anasayfa/20682e048abcb08185fa13a8b3e03bdc_6.png";
 import freze7 from "../assets/images/anasayfa/20682e048abcb08185fa13a8b3e03bdc_7.png";
 import img1Anasayfa from "../assets/images/anasayfa/img1anasayfa.png";
+import sliderImage from "../assets/images/header/sliderimage1.png";
+
 
 
 const Anasayfa = () => {
     return (
         <section className="text-center m-2 flex flex-col justify-center w-full py-2" >
+            <div className="mb-28" >
+                <img src={sliderImage} alt="home-slider-img" className="w-full" />
+            </div>
 
             {/* FREZE UÇLARI */}
             <div className="flex flex-col gap-40 items-center w-full h-[31rem] px-4 sm:pl-48 sm:pr-48">
