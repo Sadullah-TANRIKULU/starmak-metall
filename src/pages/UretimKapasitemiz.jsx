@@ -10,7 +10,7 @@ const UretimKapasitemiz = () => {
         <section className="text-center" >
             <h1 className="font-bold m-4" >Üretim Kapasitemiz</h1>
             <div className="flex flex-wrap gap-2 justify-center"  >
-                <div className="card w-40 sm:w-80 bg-base-100 shadow-xl rounded-none">
+                <div className="card w-40 sm:w-80 bg-white shadow-xl rounded-none">
                     <figure>
                         <img src={img1uretimkap} alt="img1uretimkap" />
                     </figure>
@@ -20,7 +20,7 @@ const UretimKapasitemiz = () => {
                         <p className="w-full bg-[#ffd500] py-2" >Adet</p>
                     </div>
                 </div>
-                <div className="card w-40 sm:w-80 bg-base-100 shadow-xl rounded-none">
+                <div className="card w-40 sm:w-80 bg-white shadow-xl rounded-none">
                     <figure>
                         <img src={img2uretimkap} alt="img2uretimkap" />
                     </figure>
@@ -30,7 +30,7 @@ const UretimKapasitemiz = () => {
                         <p className="w-full bg-[#ffd500] py-2" >Adet</p>
                     </div>
                 </div>
-                <div className="card w-40 sm:w-80 bg-base-100 shadow-xl rounded-none">
+                <div className="card w-40 sm:w-80 bg-white shadow-xl rounded-none">
                     <figure>
                         <img src={img3uretimkap} alt="img3uretimkap" />
                     </figure>
@@ -40,7 +40,7 @@ const UretimKapasitemiz = () => {
                         <p className="w-full bg-[#ffd500] py-2" >Adet</p>
                     </div>
                 </div>
-                <div className="card w-40 sm:w-80 bg-base-100 shadow-xl rounded-none">
+                <div className="card w-40 sm:w-80 bg-white shadow-xl rounded-none">
                     <figure>
                         <img src={img4uretimkap} alt="img4uretimkap" />
                     </figure>
@@ -50,7 +50,7 @@ const UretimKapasitemiz = () => {
                         <p className="w-full bg-[#ffd500] py-2" >Adet</p>
                     </div>
                 </div>
-                <div className="card w-40 sm:w-80 bg-base-100 shadow-xl rounded-none">
+                <div className="card w-40 sm:w-80 bg-white shadow-xl rounded-none">
                     <figure>
                         <img src={img5uretimkap} alt="img5uretimkap" />
                     </figure>

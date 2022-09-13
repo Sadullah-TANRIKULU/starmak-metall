@@ -23,9 +23,9 @@ const Header = () => {
             </div>
 
             {/* NAVBAR */}
-            <nav className="navbaree bg-gradient-to-r from-transparent to-white flex flex-col sm:flex-row justify-between items-center gap-2 py-3 pl-52 pr-48 " 
+            <nav className="navbaree bg-gradient-to-r from-transparent via-white to-white flex flex-col sm:flex-row justify-between items-center gap-2 py-3 pl-52 pr-48 "
             >
-            {/* bg-gradient-to-r from-transparent to-white */}
+                {/* bg-gradient-to-r from-transparent via-white to-white */}
                 <div>
                     <Link to="/">
                         <div >
@@ -36,30 +36,33 @@ const Header = () => {
                 <div className="flex gap-1 sm:gap-12" >
                     <Link to="/" >Anasayfa</Link>
 
-                    <div className="dropdown" >
+                    <div className="dropdown " >
                         <label
                             tabIndex={0}
                             className="m-1 cursor-pointer">
                             Kurumsal
                         </label>
+
                         <ul
                             tabIndex={0}
-                            className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-                            <li>
-                                <Link to="hakkimizda" >Hakkımızda</Link>
-                            </li>
-                            <li>
-                                <Link to="ozeltakim" >Özel Takım</Link>
-                            </li>
-                            <li>
-                                <Link to="uretimkapasitemiz" >Üretim Kapasitemiz</Link>
-                            </li>
-                            <li>
-                                <Link to="kalitepolitikamiz" >Kalite Politikamız</Link>
-                            </li>
-                            <li>
-                                <Link to="kvkkaydinlatma" >KVKK</Link>
-                            </li>
+                            className="dropdown-content menu shadow rounded-none w-[14.77rem] bg-[#EEEEEE]/90 text-[#000] font-medium">
+                            <div className="w-[4px] h-full bg-[#ffd500]" >
+                                <li className="border-b-[1px] border-[#9EA2A3] w-[14.77rem]" >
+                                    <Link to="hakkimizda" className="pl-10" >Hakkımızda</Link>
+                                </li>
+                                <li className="border-b-[1px] border-[#9EA2A3] w-[14.77rem]">
+                                    <Link to="ozeltakim" className="pl-10">Özel Takım</Link>
+                                </li>
+                                <li className="border-b-[1px] border-[#9EA2A3] w-[14.77rem]">
+                                    <Link to="uretimkapasitemiz" className="pl-10">Üretim Kapasitemiz</Link>
+                                </li>
+                                <li className="border-b-[1px] border-[#9EA2A3] w-[14.77rem]">
+                                    <Link to="kalitepolitikamiz" className="pl-10">Kalite Politikamız</Link>
+                                </li>
+                                <li className="w-[14.77rem]">
+                                    <Link to="kvkkaydinlatma" className="pl-10 ">KVKK</Link>
+                                </li>
+                            </div>
                         </ul>
                     </div>
 
@@ -71,31 +74,56 @@ const Header = () => {
                         </label>
                         <ul
                             tabIndex={0}
-                            className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-                            <li>
-                                <div
-                                    className="dropdown dropdown-right" >
-                                    <label
-                                        tabIndex={0}
-                                        className="m-1 cursor-pointer">
-                                        Solid Karbür
-                                    </label>
-                                    <ul
-                                        tabIndex={0}
-                                        className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
+                            className="dropdown-content menu shadow rounded-none w-[14.77rem] bg-[#EEEEEE]/90 text-[#000] font-medium">
+                            <div className="w-[4px] h-full bg-[#ffd500]" >
+
+                                <li className="border-b-[1px] border-[#9EA2A3] w-[14.77rem]">
+                                    <div
+                                        className="dropdown dropdown-right" >
+                                        <label
+                                            tabIndex={0}
+                                            className="cursor-pointer pl-6">
+                                            Solid Karbür
+                                        </label>
+                                        <ul
+                                            tabIndex={0}
+                                            className="dropdown-content menu shadow rounded-none w-[14.77rem] bg-[#EEEEEE]/90"
+                                        >
+                                            <div className="w-[4px] h-full bg-[#ffd500]" >
+                                                <li className="border-b-[1px] border-[#9EA2A3] w-[14.77rem]" >
+                                                    <Link to="delikisleme" className="pl-10" >Delik İşleme</Link>
+                                                </li>
+                                                <li className="border-b-[1px] border-[#9EA2A3] w-[14.77rem]" >
+                                                    <Link to="delikisleme" className="pl-10" >Frezeleme (ultra-bite)</Link>
+                                                </li>
+                                                <li className="border-b-[1px] border-[#9EA2A3] w-[14.77rem]" >
+                                                    <Link to="delikisleme" className="pl-10" >Frezeleme (mic-cut)</Link>
+                                                </li>
+                                                <li className="border-b-[1px] border-[#9EA2A3] w-[14.77rem]" >
+                                                    <Link to="delikisleme" className="pl-10" >Frezeleme (eco-plus)</Link>
+                                                </li>
+                                                <li className="border-b-[1px] border-[#9EA2A3] w-[14.77rem]" >
+                                                    <Link to="delikisleme" className="pl-10" >Frezeleme (alu-mac)</Link>
+                                                </li>
+                                                <li className="border-b-[1px] border-[#9EA2A3] w-[14.77rem]" >
+                                                    <Link to="delikisleme" className="pl-10" >Frezeleme (hpc)</Link>
+                                                </li>
+                                                <li className="border-b-[1px] border-[#9EA2A3] w-[14.77rem]" >
+                                                    <Link to="delikisleme" className="pl-10" >Frezeleme (thread-mill)</Link>
+                                                </li>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li className="border-b-[1px] border-[#9EA2A3] w-[14.77rem]">
+                                    <Link
+                                        to="kataloglarimiz"
+                                        className="pl-10"
                                     >
-                                        <li>
-                                            <Link to="delikisleme" >Delik İşleme</Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <Link to="kataloglarimiz"
-                                >
-                                    Kataloglarımız
-                                </Link>
-                            </li>
+                                        Kataloglarımız
+                                    </Link>
+                                </li>
+                            </div>
                         </ul>
                     </div>
 
@@ -105,17 +133,21 @@ const Header = () => {
                         </label>
                         <ul
                             tabIndex={0}
-                            className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
+                            className="dropdown-content menu shadow rounded-none w-[14.77rem] bg-[#EEEEEE]/90 text-[#000] font-medium"
                         >
-                            <li>
-                                <Link to="testvideolari" >Test Videoları</Link>
-                            </li>
-                            <li>
-                                <Link to="galeri" >Galeri</Link>
-                            </li>
-                            <li>
-                                <Link to="haberler" >Haberler</Link>
-                            </li>
+                            <div className="w-[4px] h-full bg-[#ffd500]" >
+
+                                <li className="border-b-[1px] border-[#9EA2A3] w-[14.77rem]">
+
+                                    <Link to="testvideolari" className="pl-10">Test Videoları</Link>
+                                </li>
+                                <li className="border-b-[1px] border-[#9EA2A3] w-[14.77rem]">
+                                    <Link to="galeri" className="pl-10 ">Galeri</Link>
+                                </li>
+                                <li className="border-b-[1px] border-[#9EA2A3] w-[14.77rem]">
+                                    <Link to="haberler" className="pl-10 " >Haberler</Link>
+                                </li>
+                            </div>
                         </ul>
                     </div>
 
